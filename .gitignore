@@ -1,12 +1,37 @@
-Packages
-.build
-xcuserdata
+
+# Xcode
+xcuserdata/
 *.xcodeproj
 DerivedData/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift Package Manager
+Packages/
+.build/
+.swiftpm/
+Package.pins
+
+# CocoaPods / Carthage
+Pods/
+Carthage/Build/
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Project files
 .DS_Store
 db.sqlite
-.swiftpm
+default.profraw
+
+# Environment variables
 .env
 .env.*
 !.env.example
-default.profraw
